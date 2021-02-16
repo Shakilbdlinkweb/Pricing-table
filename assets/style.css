@@ -1,0 +1,79 @@
+body{
+  font-family:'Roboto', sans-serif;
+}
+.pricing-table{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.pricing-heading{
+	text-align:center;
+}
+
+.pricing-heading h2{
+	font-size: 30px;
+}
+.pricing-heading p{
+    line-height: 29px;
+    color: #9c9c9c;
+}
+.pricing-item-main{
+	display: flex;
+}
+.pricing-item{
+	width: 25%;
+	text-align: center;
+    border: 1px solid #ddd;
+    margin: 25px;
+}
+.pricing-item ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.pricing-item h3{
+	color:#3c3c3c;
+}
+.pricing-item img{
+	margin: 14px 0px;
+}
+.pricing-item ul li {
+    padding: 10px;
+    text-align: justify;
+    margin: 0 0 0 25px;
+}
+.pricing-item ul li i {
+    color: #3AAE6A;
+}
+.fa-times {
+    color: red!important;
+    font-size: 17px;
+}
+.ml-2{
+    margin-right: 5px;
+}
+.pricing-item ul li span {
+    margin-left: 15px;
+}
+
+.pricing-hour {
+    margin-bottom: 30px;
+}
+.pricing-hour h4{
+	margin: 30px 0px;
+}
+.btn {
+    border: 1px solid green;
+    background: none;
+    padding: 13px 35px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.btn:focus{
+	outline: none;
+}
+.btn:hover{
+	background: green;
+	color: #fff;
+}
